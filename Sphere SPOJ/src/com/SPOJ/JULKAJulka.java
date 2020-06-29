@@ -16,6 +16,7 @@ public class JULKAJulka
             Scanner input = new Scanner(System.in);
             togather = input.nextBigInteger();
             differ = input.nextBigInteger();
+            Okay;
 
             loop--;
         }
