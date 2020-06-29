@@ -9,7 +9,6 @@ public class JULKAJulka
     {
         int loop = 10;
         while (loop > 0)
-
         {
             BigInteger togather, differ, firstOne, secondOne;
             firstOne = BigInteger.ZERO;
