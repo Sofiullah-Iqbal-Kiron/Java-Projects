@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Anything/Anything.iml" filepath="$PROJECT_DIR$/Anything/Anything.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geeks For Geeks/Geeks For Geeks.iml" filepath="$PROJECT_DIR$/Geeks For Geeks/Geeks For Geeks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sphere SPOJ/Sphere SPOJ.iml" filepath="$PROJECT_DIR$/Sphere SPOJ/Sphere SPOJ.iml" />
+    </modules>
+  </component>
+</project>
