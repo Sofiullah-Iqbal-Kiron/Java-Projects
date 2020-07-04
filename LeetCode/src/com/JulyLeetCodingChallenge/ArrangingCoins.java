@@ -16,7 +16,7 @@ public class ArrangingCoins
         System.out.println(arrangeCoins(input.nextInt()));
     }
 
-    public static int arrangeCoins(int n)
+    private static int arrangeCoins(int n)
     {
         int i, stairCase = 0;
         for (i = 1; ; i++)
