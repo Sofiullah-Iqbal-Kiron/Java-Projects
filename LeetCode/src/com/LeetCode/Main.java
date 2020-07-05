@@ -12,23 +12,6 @@ public class Main
 
     }
 
-    public boolean canMakeArithmeticProgression(int[] arr)
-    {
-        Arrays.sort(arr);
-        int i, pre = arr[1] - arr[0], cur = 0;
-        for (i = 1; i < arr.length - 1; i++)
-        {
-            cur = arr[i + 1] - arr[i];
-            if (cur != pre)
-            {
-                return false;
-            }
-            pre = cur;
-        }
-
-        return true;
-    }
-
     public int getLastMoment(int n, int[] left, int[] right)
     {
         if (left.length == 0 || right.length == 0)
