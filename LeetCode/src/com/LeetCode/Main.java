@@ -1,18 +1,13 @@
 package com.LeetCode;
 
-import java.util.Arrays;
-
 public class Main
 {
-
-    public static int input;
-
     public static void main(String[] args)
     {
 
     }
 
-    public int getLastMoment(int n, int[] left, int[] right)
+    /*public int getLastMoment(int n, int[] left, int[] right)
     {
         if (left.length == 0 || right.length == 0)
         {
@@ -33,5 +28,5 @@ public class Main
         }
 
         return Math.max(leftHigh, (n - 1) - rightLow);
-    }
+    }*/
 }
