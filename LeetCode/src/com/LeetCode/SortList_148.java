@@ -1,45 +1,17 @@
 // Accepted.
 // Posted in twitter.
-// Ubuntu-Link: https://pastebin.ubuntu.com/p/m362tZvNvv/
+// Ubuntu-Link: https://pastebin.ubuntu.com/p/m65MgZswtV/
 
 package com.LeetCode;
 
 import java.util.Arrays;
 
-class MergeTwoSortedLists_21
+public class SortList_148
 {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2)
+    public ListNode sortList(ListNode head)
     {
-        if (length(l1) == 0 && length(l2) == 0)
-            return null;
-        if (length(l1) != 0)
-            merge(l1, l2);
-        else
-        {
-            sort(l2);
-            return l2;
-        }
-        sort(l1);
-
-        return l1;
-    }
-
-    public void merge(ListNode l1, ListNode l2)
-    {
-        if (length(l1) == 0)
-        {
-            l1 = l2;
-            return;
-        }
-        else if (length(l2) == 0)
-        {
-            return;
-        }
-        while (l1.next != null)
-        {
-            l1 = l1.next;
-        }
-        l1.next = l2;
+        sort(head);
+        return head;
     }
 
     public void sort(ListNode head)
