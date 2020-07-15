@@ -2,7 +2,7 @@
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/m362tZvNvv/
 
-package com.LeetCode;
+package com.LinkedList;
 
 import java.util.Arrays;
 

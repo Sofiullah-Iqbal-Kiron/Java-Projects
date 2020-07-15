@@ -2,7 +2,7 @@
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/tnQyMpnwY3/
 
-package com.LeetCode;
+package com.LinkedList;
 
 public class ReverseLinkedList_206
 {

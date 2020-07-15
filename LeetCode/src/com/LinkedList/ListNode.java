@@ -1,4 +1,4 @@
-package com.LeetCode;
+package com.LinkedList;
 
 public class ListNode
 {

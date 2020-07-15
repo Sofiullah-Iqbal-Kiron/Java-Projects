@@ -36,7 +36,7 @@ public class LongestPalindromicSubstring_5
         int i, j;
         for (i = 0; i < s.length(); i++)
         {
-            for (j = i + 1; j < s.length(); j++)
+            for (j = i + 1; j < s.length() + 1; j++)
             {
                 if (isPalindrome(s.substring(i, j)) && ((s.substring(i, j)).length() > longestPalindrome.length()))
                     longestPalindrome = s.substring(i, j);

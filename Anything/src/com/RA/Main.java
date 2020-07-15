@@ -8,10 +8,12 @@ public class Main
 
     public static void main(String[] args)
     {
-        // write your code here
-        /*int x;
-        x = input.nextInt();
-        System.out.println(x);*/
+        String str = "";
+        char c = '0';
+        str += c;
+        c = '1';
+        str += c;
+        System.out.println(str);
     }
 
     public static void newLine()
