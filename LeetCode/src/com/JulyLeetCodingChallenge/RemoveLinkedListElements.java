@@ -1,3 +1,8 @@
+// Accepted in first term.
+// Posted in twitter.
+// Ubuntu-Link: https://pastebin.ubuntu.com/p/x9XMwZMHjg/
+
+
 package com.JulyLeetCodingChallenge;
 
 import com.LinkedList.ListNode;
@@ -13,14 +18,15 @@ public class RemoveLinkedListElements
         ArrayList<Integer> values = new ArrayList<>();
         getData(values, head);
         removeData(values, val);
+        if (values.isEmpty())
+            return null;
         setData(values, head);
 
         return head;
     }
+
     private void setData(ArrayList<Integer> values, ListNode head)
     {
-        if (values.size() == 0)
-            return;
         int i;
         for (i = 0; i < values.size() - 1; i++)
         {
@@ -31,11 +37,13 @@ public class RemoveLinkedListElements
         head.val = values.get(i);
         head.next = null;
     }
+
     private void removeData(ArrayList<Integer> values, int val)
     {
         while (values.contains(val))
-            values.remove(val);
+            values.remove(values.indexOf(val));
     }
+
     private void getData(ArrayList<Integer> values, ListNode head)
     {
         while (head != null)
