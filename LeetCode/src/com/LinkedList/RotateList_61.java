@@ -1,6 +1,7 @@
-//
-// Posted in
-// Ubuntu-Link:
+// Accepted.
+// Posted in twitter.
+// Ubuntu-Link: https://pastebin.ubuntu.com/p/C7DwT2b7G6/
+
 
 package com.LinkedList;
 
@@ -12,44 +13,30 @@ public class RotateList_61
             return head;
         int i;
         k %= length(head);
+        ListNode current, previous;
         for (i = 0; i < k; i++)
         {
-            int element = getLast(head);
-            removeLast(element, head);
-            head = addFirst(element, head);
+            previous = head;
+            current = head.next;
+            while (true)
+            {
+                if (current.next == null)
+                {
+                    ListNode newNode = new ListNode(current.val, head);
+                    head = newNode;
+                    previous.next = null;
+                    break;
+                }
+
+                previous = previous.next;
+                current = current.next;
+            }
         }
 
         return head;
     }
 
-    private ListNode addFirst(int element, ListNode head)
-    {
-        ListNode newNode = new ListNode(element);
-        newNode.next = head;
-
-        return newNode;
-    }
-
-    private void removeLast(int element, ListNode head)
-    {
-        while (head.next.val != element)
-        {
-            head = head.next;
-        }
-
-        head.next = null;
-    }
-
-    private int getLast(ListNode head)
-    {
-        while (head.next != null)
-        {
-            head = head.next;
-        }
-        return head.val;
-    }
-
-    public int length(ListNode head)
+    private int length(ListNode head)
     {
         int length = 0;
         while (head != null)
