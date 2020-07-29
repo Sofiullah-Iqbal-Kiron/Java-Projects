@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sphere SPOJ/Sphere SPOJ.iml" filepath="$PROJECT_DIR$/Sphere SPOJ/Sphere SPOJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UVa/UVa.iml" filepath="$PROJECT_DIR$/UVa/UVa.iml" />
     </modules>
   </component>
 </project>
