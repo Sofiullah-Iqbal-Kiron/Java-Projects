@@ -2,7 +2,7 @@
 // Posted in twitter.
 // Ubuntu-link: https://pastebin.ubuntu.com/p/bcQtwqDnfG/
 
-package com.JulyLeetCodingChallenge;
+package com.MonthlyChallenge2020.July;
 
 import com.RA.Main;
 

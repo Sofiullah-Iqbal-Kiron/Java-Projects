@@ -2,7 +2,7 @@
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/g8d8q3ws6T/
 
-package com.JulyLeetCodingChallenge;
+package com.MonthlyChallenge2020.July;
 
 public class ReverseWordsInAString
 {

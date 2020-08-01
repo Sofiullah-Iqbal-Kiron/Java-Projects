@@ -3,7 +3,7 @@
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/x9XMwZMHjg/
 
 
-package com.JulyLeetCodingChallenge;
+package com.MonthlyChallenge2020.July;
 
 import com.LinkedList.ListNode;
 

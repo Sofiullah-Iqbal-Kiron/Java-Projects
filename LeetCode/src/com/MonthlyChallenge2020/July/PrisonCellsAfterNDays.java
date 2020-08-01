@@ -1,7 +1,7 @@
 // Accepted.
 // 90% of community idea, not mine.
 
-package com.JulyLeetCodingChallenge;
+package com.MonthlyChallenge2020.July;
 
 import java.util.Arrays;
 

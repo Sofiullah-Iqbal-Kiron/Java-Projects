@@ -1,4 +1,4 @@
-package com.JulyLeetCodingChallenge;
+package com.MonthlyChallenge2020.July;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -2,7 +2,7 @@
 // Shared in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/BsjTbrxsHD/
 
-package com.JulyLeetCodingChallenge;
+package com.MonthlyChallenge2020.July;
 
 public class IslandPerimeter
 {
