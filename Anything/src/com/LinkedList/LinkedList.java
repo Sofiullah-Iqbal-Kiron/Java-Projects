@@ -19,9 +19,7 @@ public class LinkedList
     public static void add(int data, Node head)
     {
         while (head.next != null)
-        {
             head = head.next;
-        }
         head.next = new Node(data, null);
     }
 

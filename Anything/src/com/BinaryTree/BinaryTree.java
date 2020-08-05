@@ -66,6 +66,5 @@ public class BinaryTree
 
     private static void levelOrderTraversal(Node root)
     {
-
     }
 }

@@ -17,9 +17,7 @@ public class Main
         LinkedList.printList(head);
         Node newList = new Node(2, null);
         for (int j : new int[] {5, 67, 2, 100})
-        {
             LinkedList.add(j, newList);
-        }
         LinkedList.merge(head, newList);
         LinkedList.sort(head);
         LinkedList.printList(head);
