@@ -22,6 +22,7 @@ public class BinaryTree
         root.left.left.left = new Node(8);
         preorder(root);
         System.out.println(heightOfTree(root));
+        levelOrderTraversal(root);
     }
 
     private static void preorder(Node root)
@@ -66,5 +67,21 @@ public class BinaryTree
 
     private static void levelOrderTraversal(Node root)
     {
+        final int heightOfTree = heightOfTree(root);
+        for (int level = 1; level <= heightOfTree; level++)
+            printGivenLevel(root, level);
+    }
+
+    private static void printGivenLevel(Node root, int level)
+    {
+        if (root == null)
+            return;
+        else if (level == 1)
+            System.out.print(root.data + '\u0020');
+        else
+        {
+            printGivenLevel(root.left, level - 1);
+            printGivenLevel(root.right, level - 1);
+        }
     }
 }
