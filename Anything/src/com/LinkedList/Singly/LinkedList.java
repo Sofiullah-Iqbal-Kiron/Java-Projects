@@ -1,4 +1,4 @@
-package com.LinkedList;
+package com.LinkedList.Singly;
 
 import java.util.Arrays;
 
