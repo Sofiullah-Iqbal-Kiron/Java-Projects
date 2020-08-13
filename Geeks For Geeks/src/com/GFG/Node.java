@@ -1,11 +1,11 @@
 package com.GFG;
 
-public class DLLNode
+public class Node
 {
     public int data;
-    public DLLNode next;
-    public DLLNode prev;
-    public DLLNode(int data)
+    public Node next;
+    public Node prev;
+    public Node(int data)
     {
         this.data = data;
         next = prev = null;

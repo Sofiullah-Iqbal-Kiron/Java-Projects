@@ -2,16 +2,16 @@
 // Execution time for first acceptance: 3.44
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/fxK2F9GsdD/
 
-package com.Practice.Basic;
+package com.Practice.Basic.DLL;
 
-import com.GFG.DLLNode;
+import com.GFG.Node;
 
 public class DoublyLinkedListInsertionAtGivenPosition
 {
-    void addNode(DLLNode head_ref, int pos, int data)
+    void addNode(Node head_ref, int pos, int data)
     {
         int p = 0;
-        DLLNode Cur = head_ref, Next = head_ref.next, newNode = new DLLNode(data);
+        Node Cur = head_ref, Next = head_ref.next, newNode = new Node(data);
         while (p != pos)
         {
             Cur = Cur.next;
