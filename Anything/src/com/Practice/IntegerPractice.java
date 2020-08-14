@@ -13,5 +13,9 @@ public class IntegerPractice
         int aNum = Integer.decode("1023"); // Takes a number by string and returns as a int.
         System.out.println(aNum);
         System.out.println(Integer.reverse(123));
+        System.out.println(Integer.divideUnsigned(9, 3));
+        System.out.println(Integer.parseInt("123"));
+        System.out.println(Integer.parseInt("101", 2));
+        System.out.println(Integer.toBinaryString(10));
     }
 }

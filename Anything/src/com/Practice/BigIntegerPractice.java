@@ -31,5 +31,9 @@ public class BigIntegerPractice
         System.out.println(a + " " + A.longValue() + " " + A.doubleValue());
 
         System.out.println('\n' + "Fifth part");
+        int d = 10;
+        BigInteger D = BigInteger.valueOf(d);
+        System.out.println(D.toString(10));
+        System.out.println(D.toString(2));
     }
 }
