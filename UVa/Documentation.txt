@@ -59,3 +59,5 @@ class Main
         }
     }
 }
+
+** UVa is a old and slow judge but the problems are pretty much better.
