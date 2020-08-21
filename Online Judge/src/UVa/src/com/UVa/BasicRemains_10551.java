@@ -2,7 +2,7 @@
 // We need to learn all of build-in functions.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/rvWGCtvK9F/
 
-package UVa;
+package com.UVa;
 
 import java.math.BigInteger;
 import java.util.Scanner;

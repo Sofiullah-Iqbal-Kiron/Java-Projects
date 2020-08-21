@@ -2,7 +2,7 @@
 // Accepted in 4'th term.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/HQy7NW2nRB/
 
-package UVa;
+package com.UVa;
 
 import java.math.BigInteger;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package UVa;
+package com.UVa;
 
 import java.math.BigInteger;
 import java.util.Scanner;

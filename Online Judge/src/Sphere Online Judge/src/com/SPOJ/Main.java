@@ -1,4 +1,4 @@
-package com.SphereOnlineJudge;
+package com.SPOJ;
 
 public class Main
 {

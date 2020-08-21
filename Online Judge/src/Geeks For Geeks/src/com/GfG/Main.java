@@ -1,4 +1,4 @@
-package com.GFG;
+package com.GfG;
 
 public class Main {
 

@@ -3,13 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Anything/Anything.iml" filepath="$PROJECT_DIR$/Anything/Anything.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DimikOJ/DimikOJ.iml" filepath="$PROJECT_DIR$/DimikOJ/DimikOJ.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Geeks For Geeks/Geeks For Geeks.iml" filepath="$PROJECT_DIR$/Geeks For Geeks/Geeks For Geeks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/HackerRank/HackerRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Judge/src/DimikOJ/DimikOJ.iml" filepath="$PROJECT_DIR$/Online Judge/src/DimikOJ/DimikOJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Judge/src/Geeks For Geeks/Geeks For Geeks.iml" filepath="$PROJECT_DIR$/Online Judge/src/Geeks For Geeks/Geeks For Geeks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Judge/src/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/Online Judge/src/HackerRank/HackerRank.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Projects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sphere Online Judge/Sphere Online Judge.iml" filepath="$PROJECT_DIR$/Sphere Online Judge/Sphere Online Judge.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UVa/UVa.iml" filepath="$PROJECT_DIR$/UVa/UVa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Judge/src/Leetcode/LeetCode.iml" filepath="$PROJECT_DIR$/Online Judge/src/Leetcode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Judge/Online Judge.iml" filepath="$PROJECT_DIR$/Online Judge/Online Judge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Judge/src/Sphere Online Judge/Sphere Online Judge.iml" filepath="$PROJECT_DIR$/Online Judge/src/Sphere Online Judge/Sphere Online Judge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Online Judge/src/UVa/UVa.iml" filepath="$PROJECT_DIR$/Online Judge/src/UVa/UVa.iml" />
     </modules>
   </component>
 </project>

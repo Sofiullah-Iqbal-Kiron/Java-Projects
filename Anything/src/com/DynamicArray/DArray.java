@@ -1,7 +1,7 @@
 // DArray stands for Dynamic Array that are implemented by কিরইন্না।
 
 
-package com.DArray;
+package com.DynamicArray;
 
 import java.util.Arrays;
 

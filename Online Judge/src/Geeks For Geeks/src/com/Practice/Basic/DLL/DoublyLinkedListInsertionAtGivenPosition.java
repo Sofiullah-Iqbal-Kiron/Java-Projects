@@ -4,7 +4,7 @@
 
 package com.Practice.Basic.DLL;
 
-import com.GFG.Node;
+import com.GfG.Node;
 
 public class DoublyLinkedListInsertionAtGivenPosition
 {
