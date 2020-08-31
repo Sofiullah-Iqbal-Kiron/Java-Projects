@@ -11,6 +11,5 @@ public class BigDecimalPractice
         System.out.println(A.subtract(B));
         System.out.println(A.abs());
         String sample = "P ZQAE TQR";
-        for(int i=0;i<sample.length();)
     }
 }
