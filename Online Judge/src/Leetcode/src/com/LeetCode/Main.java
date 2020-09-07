@@ -4,7 +4,10 @@ public class Main
 {
     public static void main(String[] args)
     {
-
+        String s = "";
+        var count = 1;
+        s += (char) count + 48;
+        System.out.println(s);
     }
 
     /*public int getLastMoment(int n, int[] left, int[] right)
