@@ -2,7 +2,7 @@ package com.LinkedList;
 
 public class RemoveDuplicatesFromSortedListII_82
 {
-    public ListNode deleteDuplicates(ListNode head)
+    public void deleteDuplicates(ListNode head)
     {
         final int lengthOfHead = length(head);
     }
