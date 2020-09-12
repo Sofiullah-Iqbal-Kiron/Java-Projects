@@ -74,7 +74,7 @@ public class PatternMatcher
 
             // System.out.println(Pattern.compile("dog").matcher("I found a doggie on roadside.").find());
 
-            String beforeBackreference = "<\\s*([a-zA-Z0-9])(\\s+.*)?>.*</\\s*\\1\\s*>";
+            String beforeBackreference = "<\\s*([a-zA-Z0-9]+)(\\s+.*)?>.*</\\s*\\1\\s*>";
             Pattern p = Pattern.compile(beforeBackreference);
         }
 

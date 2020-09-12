@@ -4,8 +4,7 @@ import com.GfG.Node;
 
 public class DeleteNodeInDoublyLinkedList
 {
-    Node deleteNode(Node head, int x)
+    void deleteNode(Node head, int x)
     {
-
     }
 }

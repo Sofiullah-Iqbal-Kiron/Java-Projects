@@ -1,5 +1,5 @@
 // Accepted in first term.
-// Take some help form LeetCode official solution, this is a approach for two-pointer.
+// Take some help form HabiJabi official solution, this is a approach for two-pointer.
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/jvVMTMHgJQ/
 
