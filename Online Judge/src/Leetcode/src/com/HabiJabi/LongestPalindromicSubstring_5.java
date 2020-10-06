@@ -61,9 +61,7 @@ public class LongestPalindromicSubstring_5
     {
         int stringLength = s.length();
         if (stringLength < 2)
-        {
             return s;
-        }
 
         for (int start = 0; start < stringLength - 1; start++)
         {
@@ -81,6 +79,7 @@ public class LongestPalindromicSubstring_5
             start--;
             end++;
         }
+
         if (resultLength < end - start - 1)
         {
             resultLength = end - start - 1;
