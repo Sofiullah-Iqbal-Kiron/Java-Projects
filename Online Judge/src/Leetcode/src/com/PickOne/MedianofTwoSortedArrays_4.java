@@ -3,7 +3,7 @@
 // Post at discuss.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/zqsGvdF9np/
 
-package com.HabiJabi;
+package com.PickOne;
 
 import java.util.Arrays;
 

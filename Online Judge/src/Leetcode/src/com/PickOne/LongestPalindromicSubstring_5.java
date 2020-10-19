@@ -4,7 +4,7 @@
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/YsHpSnMQPP/
 
-package com.HabiJabi;
+package com.PickOne;
 
 // Brute Force.
 public class LongestPalindromicSubstring_5

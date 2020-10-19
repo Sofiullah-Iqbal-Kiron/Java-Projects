@@ -55,6 +55,7 @@ import java.util.Arrays;
     }
 }*/
 
+/*
 // An O(n*n) solution from contest discuss.
 class Solution
 {
@@ -68,7 +69,8 @@ class Solution
             for (int j = 0; j < towers.length; j++)
             {
                 double d =
-                        Math.sqrt((towers[i][0] - towers[j][0]) * (towers[i][0] - towers[j][0]) + (towers[i][1] - towers[j][1]) * (towers[i][1] - towers[j][1]));
+                        Math.sqrt((towers[i][0] - towers[j][0]) * (towers[i][0] - towers[j][0]) + (towers[i][1] -
+                        towers[j][1]) * (towers[i][1] - towers[j][1]));
                 curq += d <= radius ? (int) Math.floor(towers[j][2] / (d + 1)) : 0;
             }
 
@@ -86,5 +88,35 @@ class Solution
             }
         }
         return res;
+    }
+}*/
+
+
+// Last submitted but not accepted. Need to sort according to the ages.
+class Solution
+{
+    public int bestTeamScore(int[] scores, int[] ages)
+    {
+        int younger = 0, elder = 0;
+        for (int i = 0; i < scores.length; i++)
+        {
+            if (!conflict(ages[i], scores[i], ages, scores))
+                younger += scores[i];
+            else
+                elder += scores[i];
+        }
+
+        return Math.max(younger, elder);
+    }
+
+    private boolean conflict(int age, int score, int[] ages, int[] scores)
+    {
+        for (int i = 0; i < ages.length; i++)
+        {
+            if (age > ages[i] && score < scores[i])
+                return true;
+        }
+
+        return false;
     }
 }

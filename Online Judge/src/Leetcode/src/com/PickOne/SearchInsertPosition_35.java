@@ -2,7 +2,7 @@
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/phtQt7TXMX/
 
-package com.HabiJabi;
+package com.PickOne;
 
 import java.util.Arrays;
 

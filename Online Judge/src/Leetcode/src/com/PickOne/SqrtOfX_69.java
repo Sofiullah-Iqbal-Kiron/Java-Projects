@@ -2,7 +2,7 @@
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/FsnB6yt9GC/
 
-package com.HabiJabi;
+package com.PickOne;
 
 public class SqrtOfX_69
 {

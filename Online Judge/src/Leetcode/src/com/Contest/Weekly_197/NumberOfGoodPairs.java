@@ -2,7 +2,7 @@
 // Posted in twitter.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/hSxnxfGFBy/
 
-package com.WeeklyContest197;
+package com.Contest.Weekly_197;
 
 public class NumberOfGoodPairs
 {

@@ -3,7 +3,7 @@
 // Also solved in com.MonthlyChallenge2020.August
 
 
-package com.HabiJabi;
+package com.PickOne;
 
 public class DetectCapital_520
 {

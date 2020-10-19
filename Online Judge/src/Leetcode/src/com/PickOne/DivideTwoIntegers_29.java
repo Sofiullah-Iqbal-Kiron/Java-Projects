@@ -1,6 +1,6 @@
 // Do not use, multiplication, division or mod.
 
-package com.HabiJabi;
+package com.PickOne;
 
 public class DivideTwoIntegers_29
 {

@@ -4,7 +4,7 @@
 // This is the first time I expends total 1.30 hours that is total contest time but loses many rating.
 
 
-package com.BiweeklyContest37;
+package com.Contest.Biweekly_37;
 
 import java.util.Arrays;
 

@@ -1,7 +1,7 @@
 // Accepted at first submission.
 // Ubuntu-Link: https://pastebin.ubuntu.com/p/YMb8RHRHQN/
 
-package com.WeeklyContest196;
+package com.Contest.Weekly_196;
 
 import java.util.Arrays;
 
