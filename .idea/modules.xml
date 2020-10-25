@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Anything/Anything.iml" filepath="$PROJECT_DIR$/Anything/Anything.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Online Judge/src/DimikOJ/DimikOJ.iml" filepath="$PROJECT_DIR$/Online Judge/src/DimikOJ/DimikOJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/Online Judge/src/Geeks For Geeks/Geeks For Geeks.iml" filepath="$PROJECT_DIR$/Online Judge/src/Geeks For Geeks/Geeks For Geeks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Online Judge/src/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/Online Judge/src/HackerRank/HackerRank.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Projects.iml" />
