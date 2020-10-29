@@ -12,7 +12,7 @@ public class TheHiddenIsland
     {
         String test = input.next(); // Is it nextLine()?
         int T = Integer.parseInt(test);
-        while (T-- > 0)
+        for (int t = 1; t <= T; t++)
         {
             String s = input.next();
             int k = input.nextInt();
@@ -29,7 +29,6 @@ public class TheHiddenIsland
 
             StringBuilder sb = new StringBuilder(s);
             sb.replace(firstQ, firstQ + 1, putAtFirst);
-
 
             for (int i = firstQ; i < sb.length(); i++)
             {
@@ -56,10 +55,6 @@ public class TheHiddenIsland
     {
         char[] charArray = s.toCharArray();
         Arrays.sort(charArray);
-        String string = "";
-        for (char c : charArray)
-            string += c;
-
-        return string;
+        return new String(charArray);
     }
 }
