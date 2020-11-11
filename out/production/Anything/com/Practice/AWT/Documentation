@@ -1,0 +1,7 @@
+-> AWT stands for Application Window Toolkit. It in platform dependent. That why, which GUI you made at
+windows OS, you can not run it on other OS perfectly.
+
+-> If we do not set any icon at Frame then Icon of Java (Coffee Cup with hot smog) will appear at icon
+section For windows OS, that is top-left corner.
+
+-> The main structure of AWT application is "components".
