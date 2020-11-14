@@ -1,13 +1,13 @@
 1. Every file should be uploaded with all the packages that you imported.
 2. Not include base package statement.
-3. Class must be "not public" with name "Main".
+3. Class must be "not public" with name "TimeClient".
 4. Here is a sample code:-
 // @JUDGE_ID:  1000AA  100  Java  "Easy algorithm"
 
 import java.io.*;
 import java.util.*;
 
-class Main
+class TimeClient
 {
     static String ReadLn (int maxLg)  // utility function to read from stdin
     {
@@ -35,7 +35,7 @@ class Main
 
     public static void main (String args[])  // entry point from OS
     {
-        Main myWork = new Main();  // create a dinamic instance
+        TimeClient myWork = new TimeClient();  // create a dinamic instance
         myWork.Begin();            // the true entry point
     }
 
@@ -45,7 +45,7 @@ class Main
         StringTokenizer idata;
         int a, b, min, max, num, n, cycle, cyclemax;
 
-        while ((input = Main.ReadLn (255)) != null)
+        while ((input = TimeClient.ReadLn (255)) != null)
         {
           idata = new StringTokenizer (input);
           a = Integer.parseInt (idata.nextToken());

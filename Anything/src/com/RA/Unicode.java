@@ -2,6 +2,7 @@ package com.RA;
 
 public class Unicode
 {
+    //    Macro Definitions
     public static final char FULL_STOP;
     public static final char BULLET;
     public static final char COPYRIGHT;
@@ -20,7 +21,7 @@ public class Unicode
         COLON = '\u003A';
         QUESTION_MARK = '\u003F';
         HASH_TAG = '\u0023';
-        SINGLE_SPACE='\u0020';
+        SINGLE_SPACE = '\u0020';
     }
 
     public static void main(String[] args)
