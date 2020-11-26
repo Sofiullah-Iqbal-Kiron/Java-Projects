@@ -12,5 +12,10 @@ public class Time
         this.second = second;
     }
 
+    /*
+        The toString method is a non-static method. System.out.print() always invokes the toString()
+        method for current object type then print this on console.
+        It's called instance method also.
+    */
     public String toString() {return String.format("%d:%d:%.2f", this.hour, this.minute, this.second);}
 }

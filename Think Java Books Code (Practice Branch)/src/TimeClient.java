@@ -11,6 +11,6 @@ public class TimeClient
     {
         Time myTime = new Time(10, 12, 4.6);
         System.out.println(String.valueOf(myTime.hour) + COLON + myTime.minute + COLON + myTime.second);
-        System.out.println(myTime.toString());
+        System.out.println(myTime);
     }
 }
