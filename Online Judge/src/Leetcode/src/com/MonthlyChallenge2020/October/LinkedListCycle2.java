@@ -4,7 +4,7 @@ import com.LinkedList.ListNode;
 
 public class LinkedListCycle2
 {
-    public ListNode detectCycle(ListNode head)
+    /*public ListNode detectCycle(ListNode head)
     {
-    }
+    }*/
 }

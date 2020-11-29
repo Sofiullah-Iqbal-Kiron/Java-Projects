@@ -30,7 +30,7 @@ public class GoatLatin
 
     private String goatThis(String mainString, String sufix)
     {
-        if (mainString.startsWith("a") || mainString.startsWith("A") || mainString.startsWith("e") || mainString.startsWith("E") || mainString.startsWith("i") || mainString.startsWith("I") || mainString.startsWith("o") || mainString.startsWith("O") || mainString.startsWith("u") || mainString.startsWith("U"))
+        if (mainString.startsWith("a") || mainString.startsWith("MaximumRepeatingSubstring") || mainString.startsWith("e") || mainString.startsWith("E") || mainString.startsWith("i") || mainString.startsWith("I") || mainString.startsWith("o") || mainString.startsWith("O") || mainString.startsWith("u") || mainString.startsWith("U"))
             return mainString += sufix;
         else
         {

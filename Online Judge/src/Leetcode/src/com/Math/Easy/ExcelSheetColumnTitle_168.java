@@ -8,7 +8,7 @@ package com.Math.Easy;
 
 public class ExcelSheetColumnTitle_168
 {
-    private static String[] Excel = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
+    private static String[] Excel = {"MaximumRepeatingSubstring", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
             "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
 
     public static String convertToTitle(int n)

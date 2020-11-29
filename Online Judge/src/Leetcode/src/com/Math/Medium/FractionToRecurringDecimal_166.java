@@ -2,7 +2,7 @@
  * CSE, BSMRSTU, SHIICT */
 
 // Accepted at fourth.
-// A problem from elementary math.
+// MaximumRepeatingSubstring problem from elementary math.
 // Not totally my concept.
 // Get helped form youtube elementary math tutotial.
 // Posted in twitter.
