@@ -1,4 +1,9 @@
-package com.Sort;
+// Accepted after 5 wrong/error submission.
+// Posted in twitter.
+// Ubuntu-Link: https://pastebin.ubuntu.com/p/w868tFfMrw/
+
+
+package com.Sort.Medium;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,19 +15,19 @@ public class MergeIntervals_56
     public int[][] merge(int[][] intervals)
     {
         sortByComparator(intervals);
-        int i, j, firstPoint, secondPoint;
+        int i, j, firstPoint, secondPoint = Integer.MIN_VALUE;
         List<int[]> list = new ArrayList<>();
         for (i = 0; i < intervals.length; i = j)
         {
             j = i + 1;
-            firstPoint = Math.min(intervals[i][0], intervals[j][0]);
-            while (j < intervals.length && intervals[j][0] <= intervals[i][1])
+            firstPoint = intervals[i][0];
+            secondPoint = intervals[i][1];
+            while (j < intervals.length && intervals[j][0] <= secondPoint)
             {
+                secondPoint = Math.max(secondPoint, intervals[j][1]);
                 j++;
-                i++;
             }
 
-            secondPoint = Math.max(intervals[i - 1][1], intervals[j - 1][1]);
             list.add(new int[] {firstPoint, secondPoint});
         }
 
