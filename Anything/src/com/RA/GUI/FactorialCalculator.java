@@ -1,4 +1,3 @@
-// Not completed yet.
 // Over (7 Dec, 2020. 12:39 AM)
 
 
