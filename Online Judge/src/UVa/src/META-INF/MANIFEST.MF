@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-TimeClient-Class: com.HackerRank.ReGex.Applications.Easy.AlienUsername
-
