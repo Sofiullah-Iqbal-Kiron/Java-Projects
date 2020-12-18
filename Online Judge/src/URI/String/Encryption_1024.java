@@ -1,29 +1,39 @@
 package URI.String;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.Arrays;
 
 public class Encryption_1024
 {
-    private static int TestCase;
-    private static Scanner input = new Scanner(System.in);
+    static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+    static PrintWriter output = new PrintWriter(System.out);
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
-        TestCase = input.nextInt();
-        while (TestCase-- > 0)
+        int testCases = input.read();
+        while (testCases > 0)
         {
-            String inputS = input.nextLine();
-            StringBuilder outputS = new StringBuilder();
+            String inputS = input.readLine(), outputS = "";
             for (int i = 0; i < inputS.length(); i++)
             {
                 if (Character.isLetter(inputS.charAt(i)))
-                    outputS.insert(0, inputS.charAt(i) + 3);
+                    outputS += (char) (inputS.charAt(i) + 3);
+                else
+                    outputS += inputS.charAt(i);
             }
-            int halfPosition = (int) Math.ceil(outputS.length() / 2.0);
-            for (int i = halfPosition; i < outputS.length(); i++)
-                outputS.setCharAt(i, (char) (outputS.charAt(i) - 1));
 
             System.out.println(outputS);
+            testCases--;
         }
+    }
+
+    private String sortedString(String myString)
+    {
+        char[] myCharString = myString.toCharArray();
+        Arrays.sort(myCharString);
+        return myCharString.toString();
     }
 }
