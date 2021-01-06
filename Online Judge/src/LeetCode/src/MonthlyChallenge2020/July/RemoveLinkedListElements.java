@@ -5,7 +5,7 @@
 
 package MonthlyChallenge2020.July;
 
-import LeetCode.LinkedList.ListNode;
+import LinkedList.ListNode;
 
 import java.util.ArrayList;
 

@@ -2,7 +2,7 @@
 
 package LinkedList.RotateList_61;
 
-import LeetCode.LinkedList.ListNode;
+import LinkedList.ListNode;
 
 public class RotateList_61_betterCode
 {

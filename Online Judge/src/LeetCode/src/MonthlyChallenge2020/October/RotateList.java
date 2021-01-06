@@ -4,7 +4,7 @@
 
 package MonthlyChallenge2020.October;
 
-import LeetCode.LinkedList.ListNode;
+import LinkedList.ListNode;
 
 public class RotateList
 {

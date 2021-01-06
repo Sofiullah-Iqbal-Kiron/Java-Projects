@@ -1,6 +1,6 @@
 package MonthlyChallenge2020.November;
 
-import LeetCode.LinkedList.ListNode;
+import LinkedList.ListNode;
 
 public class ConvertBinaryNumberInALinkedListToInteger
 {

@@ -61,6 +61,7 @@ public class FactorialCalculator
         contentPane.add(thanksLabel);
         contentPane.setLayout(new FlowLayout());
 
+        frame.setBackground(Color.green);
         frame.setSize(new Dimension(300, 180));
         frame.setLayout(new FlowLayout());
         frame.setVisible(true);
