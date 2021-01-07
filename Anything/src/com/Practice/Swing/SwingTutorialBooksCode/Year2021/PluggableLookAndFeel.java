@@ -129,13 +129,7 @@ class ExperimentingWithCurrentLookAndFeels
             if (lafName.equals(currentLaf))
                 radioButton.setSelected(true);
 
-            radioButton.addItemListener(new ItemListener() {
-                @Override
-                public void itemStateChanged(ItemEvent e)
-                {
-
-                }
-            });
+            radioButton.addItemListener(e -> {});
         }
 
         leftPanel.add(vBox);
