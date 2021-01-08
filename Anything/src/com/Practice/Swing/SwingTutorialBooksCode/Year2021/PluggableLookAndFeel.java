@@ -67,9 +67,17 @@ class AllInstalledLookAndFeel /* Currently Installed or available */
  * rigid: If needs a invisible component that takes up the same amount of space, get this by invoking createRigidArea.
  */
 
+/* SwingUtilities class:
+ * javax.swing.SwingUtilities implements SwingConstants.
+ * A collection of utility methods for swing.
+ * Now we need the method of this class is: public static void updateComponentTreeUI(Component c);
+ * To update UI. Initialize its UI property with the current look and feel.
+ */
+
 class ExperimentingWithCurrentLookAndFeels
 {
     //    Fields
+    public static JFrame frame;
     public static JLabel topLabel = new JLabel("Initially, nothing to show");
     public static ButtonGroup lafRadioButtonGroup = new ButtonGroup();
     public static Map<String, String> lafInstalled = new TreeMap<>();
@@ -81,7 +89,7 @@ class ExperimentingWithCurrentLookAndFeels
             lafInstalled.put(lafInfo.getName(), lafInfo.getClassName());
 
 //        Constructing the frame.
-        JFrame frame = new JFrame("Experimenting with All Installed Look and Feels");
+        frame = new JFrame("Experimenting with All Installed Look and Feels");
 
 //        Constructing panes for contentPane.
         JPanel topPanel = buildTopPanel();
@@ -129,7 +137,26 @@ class ExperimentingWithCurrentLookAndFeels
             if (lafName.equals(currentLaf))
                 radioButton.setSelected(true);
 
-            radioButton.addItemListener(e -> {});
+            radioButton.addItemListener(e -> {
+                if (e.getSource() instanceof AbstractButton)
+                {
+                    AbstractButton sourceButton = (AbstractButton) e.getSource();
+                    String selected_laf_name = sourceButton.getText();
+                    String selected_laf_class_name = lafInstalled.get(selected_laf_name);
+                    topLabel.setText(selected_laf_class_name);
+                    try
+                    {
+                        UIManager.setLookAndFeel(selected_laf_class_name);
+                        SwingUtilities.updateComponentTreeUI(frame);
+                    }
+                    catch (Exception exception)
+                    {
+                        exception.printStackTrace();
+                    }
+                }
+            });
+            vBox.add(radioButton);
+            lafRadioButtonGroup.add(radioButton);
         }
 
         leftPanel.add(vBox);
@@ -139,7 +166,19 @@ class ExperimentingWithCurrentLookAndFeels
     private static JPanel buildRightPanel()
     {
         JPanel rightPanel = new JPanel();
+        rightPanel.setLayout(new FlowLayout());
+        rightPanel.setBorder(borderForRightpanel());
+        rightPanel.add(new JTextField(17));
+        rightPanel.add(new JButton("Save"));
 
         return rightPanel;
     }
+
+    private static Border borderForRightpanel()
+    {
+        Border retBorder = BorderFactory.createBevelBorder(4, Color.BLUE, Color.CYAN);
+
+        return retBorder;
+    }
+
 }
