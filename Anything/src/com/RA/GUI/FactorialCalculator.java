@@ -59,14 +59,12 @@ class FactorialCalculator
 //        Declaration.
         JPanel centerPanel = new JPanel();
 
-//        Undone.
-        JPanel northPanelForCenterPanel = new JPanel();
-
         JLabel enterMessageLabel = new JLabel("Enter Your number: ");
         JTextField enterTextField = new JTextField(10);
         JLabel ansLabel = new JLabel("Welcome, Nothing To Show");
         JButton enterButton = new JButton("Enter");
         JButton closeButton = new JButton("Close");
+        enterButton.setMnemonic('E');
 
 //        Adding Listeners.
         enterButton.addActionListener(e -> {
@@ -92,11 +90,21 @@ class FactorialCalculator
 
         closeButton.addActionListener(e -> System.exit(0));
 
+//        Set GridLayout for centerPanel.
+        GridLayout layoutForCenterPanel = new GridLayout(3, 0);
+
+//        First Panel/component to be added to the centerPanel.
+        JPanel firstPanelOfCenterPanel = new JPanel();
+        firstPanelOfCenterPanel.setLayout(new FlowLayout());
+        firstPanelOfCenterPanel.add(enterMessageLabel);
+        firstPanelOfCenterPanel.add(enterTextField);
+
 //        Modifying center panel.
         centerPanel.setBorder(centerPanelBorder());
-        centerPanel.setLayout(new FlowLayout());
-        centerPanel.add(enterMessageLabel);
-        centerPanel.add(enterTextField);
+        centerPanel.setLayout(layoutForCenterPanel);
+
+//        Adding components at centerPanel.
+        centerPanel.add(firstPanelOfCenterPanel);
         centerPanel.add(enterButton);
         centerPanel.add(ansLabel);
         centerPanel.add(closeButton);
@@ -120,7 +128,7 @@ class FactorialCalculator
 
     public static Border centerPanelBorder()
     {
-        Border retBorder = BorderFactory.createLineBorder(Color.red, 2, true);
+        Border retBorder = BorderFactory.createLineBorder(Color.green, 2, false);
 
         return retBorder;
     }
