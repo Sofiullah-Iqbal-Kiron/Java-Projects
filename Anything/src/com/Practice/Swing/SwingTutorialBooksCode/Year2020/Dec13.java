@@ -4,6 +4,8 @@ import javax.swing.*;
 import javax.swing.plaf.LabelUI;
 import java.awt.*;
 
+// Icon, BoxLayout.
+
 /*
  * BoxLayout:
  * BoxLayout just a updated version of FlowLayout. It can arrange components as flow of vertically or horizontally.
@@ -55,7 +57,6 @@ class Dec13_B
         Icon iconForLabel =
                 new ImageIcon("C:\\Users\\Hp\\Pictures\\Java WallPaper\\wallpaperflare.com_wallpaper (1)" + ".jpg");
         JLabel textLabel = new JLabel("Text Label"), iconLabel = new JLabel(iconForLabel);
-        ;
         textLabel.setVisible(true);
         textLabel.setBackground(Color.darkGray);
         textLabel.setForeground(Color.blue);
@@ -81,8 +82,8 @@ class Dec13_C
     {
         JFrame frame = new JFrame("JLabel Illustration");
 
-        JTextField nameTextField=new JTextField("Enter your name...");
-        JLabel nameLabel=new JLabel("Name: ");
+        JTextField nameTextField = new JTextField("Enter your name...");
+        JLabel nameLabel = new JLabel("Name: ");
         nameLabel.setDisplayedMnemonic('N');
         nameLabel.setLabelFor(nameTextField);
 

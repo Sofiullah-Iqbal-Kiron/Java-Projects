@@ -42,6 +42,7 @@ public class MakingChoices
 }
 
 // JComboBox<E>
+// Uneditable.
 
 /*
  * A component that combines a button or editable field and a drop-down list. The user can select a value from the list.
