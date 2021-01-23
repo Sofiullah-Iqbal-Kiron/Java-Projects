@@ -1,3 +1,6 @@
+// Set al gender pictures dimension as male picture dimension.
+
+
 package com.Practice.Swing.SwingTutorialBooksCode.Year2021;
 
 import javax.swing.*;
@@ -8,31 +11,48 @@ public class MakingChoices
 {
     public static void main(String[] args)
     {
-        JFrame frame = new JFrame("JLabel Illustration");
-
-        GridLayout gridLayout = new GridLayout();
-
-        Container contentPane = frame.getContentPane();
-        contentPane.setLayout(new BorderLayout());
-
-//        Creating three radioButtons whose are mutually exclusive.
+//        Creating three radioButtons.
         JRadioButton male = new JRadioButton("Male");
         JRadioButton female = new JRadioButton("Female");
         JRadioButton other = new JRadioButton("Other");
 
-//        Create mutually exclusive buttons by ButtonGroup.
+//        Create them mutually exclusive buttons by ButtonGroup and male is pre-selected.
         ButtonGroup genderGroup = new ButtonGroup();
         genderGroup.add(male);
         genderGroup.add(female);
         genderGroup.add(other);
+        male.setSelected(true);
 
-//        A container with BoxLayout as default LayoutManager.
+        JLabel showGenderPerson = new JLabel();
+        String path = "C:\\Users\\Hp\\Documents\\Java " + "Projects\\Anything\\src\\com\\Practice\\Swing" +
+                "\\SwingTutorialBooksCode\\Year2021\\MakingChoices " + "Pictures for Icon\\";
+        Icon malePicture = new ImageIcon(path + "Male.jpg");
+        Icon femalePicture = new ImageIcon(path + "Female.jpg");
+        Icon otherPicture = new ImageIcon(path + "Other.jpg");
+        showGenderPerson.setIcon(malePicture);
+
+//        Adding ActionListeners to radio buttons.
+        male.addActionListener(e -> showGenderPerson.setIcon(malePicture));
+        female.addActionListener(e -> showGenderPerson.setIcon(femalePicture));
+        other.addActionListener(e -> showGenderPerson.setIcon(otherPicture));
+
+//        Box is a container with BoxLayout as default LayoutManager.
         Box vBox = Box.createVerticalBox();
         vBox.add(male);
         vBox.add(female);
         vBox.add(other);
 
-        contentPane.add(vBox, BorderLayout.CENTER);
+        JPanel genderShowingPanel = new JPanel();
+        genderShowingPanel.setPreferredSize(new Dimension(800, 670));
+        genderShowingPanel.setBackground(Color.BLACK);
+        genderShowingPanel.add(showGenderPerson);
+
+        JFrame frame = new JFrame("Genders");
+        Container contentPane = frame.getContentPane();
+        contentPane.setLayout(new FlowLayout());
+        contentPane.setBackground(Color.BLACK);
+        contentPane.add(vBox);
+        contentPane.add(genderShowingPanel);
 
         frame.pack();
         frame.setVisible(true);
