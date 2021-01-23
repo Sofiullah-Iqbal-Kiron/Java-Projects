@@ -41,7 +41,11 @@ public class MakingChoices
     }
 }
 
-// JToggleButton
+// JComboBox<E>
+
+/*
+ * A component that combines a button or editable field and a drop-down list. The user can select a value from the list.
+ */
 class MakingChoicesTwo
 {
     public static void main(String[] args)
@@ -50,6 +54,25 @@ class MakingChoicesTwo
 
         Container contentPane = frame.getContentPane();
         contentPane.setLayout(new BorderLayout());
+
+        JComboBox<String> frameWorksInJava = new JComboBox<>(new String[] {"Spring Boot", "JMonkeyEngine", "Swing",
+                "JavaFX", "AWT"});
+        JLabel showSelectedFrameWork = new JLabel("Nothing to Show");
+
+//        Setting up frameWorksInJava.
+        frameWorksInJava.setEditable(false);
+        frameWorksInJava.addActionListener(e -> {
+            showSelectedFrameWork.setText(frameWorksInJava.getItemAt(frameWorksInJava.getSelectedIndex()) + " is " +
+                    "selected.");
+            frame.pack();
+        });
+
+
+        Box vBox = new Box(BoxLayout.Y_AXIS); // Box.createVerticalBox()
+        vBox.add(frameWorksInJava);
+        vBox.add(showSelectedFrameWork);
+
+        contentPane.add(vBox, BorderLayout.CENTER);
 
         frame.pack();
         frame.setVisible(true);
