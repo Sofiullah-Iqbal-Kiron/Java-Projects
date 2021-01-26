@@ -6,7 +6,7 @@ package com.Practice.Swing.SwingTutorialBooksCode.Year2021;
 import javax.swing.*;
 import java.awt.*;
 
-// JRadioButton
+// JRadioButton (Gender Showing App)
 public class MakingChoices
 {
     public static void main(String[] args)
@@ -43,11 +43,11 @@ public class MakingChoices
         vBox.add(other);
 
         JPanel genderShowingPanel = new JPanel();
-        genderShowingPanel.setPreferredSize(new Dimension(800, 670));
+        genderShowingPanel.setPreferredSize(new Dimension(700, 670));
         genderShowingPanel.setBackground(Color.BLACK);
         genderShowingPanel.add(showGenderPerson);
 
-        JFrame frame = new JFrame("Genders");
+        JFrame frame = new JFrame("Gender Showing App");
         Container contentPane = frame.getContentPane();
         contentPane.setLayout(new FlowLayout());
         contentPane.setBackground(Color.BLACK);
@@ -71,7 +71,7 @@ class MakingChoicesTwo
 {
     public static void main(String[] args)
     {
-        JFrame frame = new JFrame("JLabel Illustration");
+        JFrame frame = new JFrame("Pet Illustration with JComboBox");
 
         Container contentPane = frame.getContentPane();
         contentPane.setLayout(new BorderLayout());
@@ -99,5 +99,14 @@ class MakingChoicesTwo
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    }
+}
+
+// JToggleBox
+class MakingChoicesThree
+{
+    public static void main(String[] args)
+    {
+
     }
 }

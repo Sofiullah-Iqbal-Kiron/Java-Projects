@@ -32,9 +32,7 @@ public class JComboBoxLearning
         JComboBox<String> petComboBox = new JComboBox<>(petString);
         petComboBox.setEditable(false);
         petComboBox.setSelectedIndex(1);
-        petComboBox.addActionListener(e -> {
-            showPet.setIcon(petIcon[petComboBox.getSelectedIndex()]);
-        });
+        petComboBox.addActionListener(e -> showPet.setIcon(petIcon[petComboBox.getSelectedIndex()]));
 
         JPanel showPetPanel = new JPanel();
         showPetPanel.setPreferredSize(new Dimension(783, 391));
@@ -52,3 +50,12 @@ public class JComboBoxLearning
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     }
 }
+
+/*
+ -> Combo boxes also fires item events when any of the items is selected or deselected. Means when item state
+    changed.
+ -> Only one item can be selected in a combo box, so when the user makes a new selection the previous item becomes
+    deselected and fires an item event. At the same time, selected item also fires another item event.
+ -> If the user reselect the selected item, no item event will fired.
+ -> Combo box is a compound component, so we should listen only high-level events.
+ */
