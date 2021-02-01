@@ -10,4 +10,5 @@ IntelliJ IDEA shortcuts.
 -> To quickly highlight all usages of selected variable in the current file: ctrl + shift + f7
 -> Refactor: shift + f6
 -> Move line up / down: alt + shift + up arrow / down arrow
--> To delete the whole line at current carret: Ctrl + Y
+-> To delete the whole line at current caret: Ctrl + Y
+-> Join next line with current caret line: ctrl + shift + J
