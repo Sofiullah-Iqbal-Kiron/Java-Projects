@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Max_Number_Of_K_Sum_Pairs.java:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Max_Number_Of_K_Sum_Pairs_java_jar</output-path>
+    <root id="archive" name="Max_Number_Of_K_Sum_Pairs.java.jar">
+      <element id="module-output" name="Think Java Books Code (Practice Branch)" />
+      <element id="module-output" name="Anything" />
+      <element id="module-output" name="HackerRank" />
+      <element id="module-output" name="LeetCode" />
+      <element id="module-output" name="UVa" />
+      <element id="module-output" name="Online Judge" />
+      <element id="module-output" name="Geeks For Geeks" />
+    </root>
+  </artifact>
+</component>

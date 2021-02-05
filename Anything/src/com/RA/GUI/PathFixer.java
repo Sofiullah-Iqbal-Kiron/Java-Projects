@@ -3,8 +3,6 @@ package com.RA.GUI;
 import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
-import java.awt.image.ImageObserver;
-import java.awt.image.ImageProducer;
 
 /*
  * text field takes enter button as action listener. Anything else?
@@ -13,10 +11,15 @@ import java.awt.image.ImageProducer;
 
 public class PathFixer
 {
+    private static JFrame frame = new JFrame("Path Fixer");
+    private static JPanel introducingLabelHolder = new JPanel();
+    private static JLabel introducingLabel = new JLabel("A Path Fixer for Windows OS");
+    private static JPanel southSideButtonHolder = new JPanel(new FlowLayout());
+    private static JPanel inputLabelHolder = new JPanel();
+    private static JPanel outputLabelHolder = new JPanel();
+
     public static void main(String[] args)
     {
-        JFrame frame = new JFrame("Path Fixer");
-
 //        LookAndFeel.
         try
         {
@@ -29,29 +32,27 @@ public class PathFixer
         }
 
 //        introducingLabel.
-        JPanel introducingLabelHolder = new JPanel();
-        introducingLabelHolder.setPreferredSize(new Dimension(0, 60));
-        Border introducingLabelHolderBorder =
-                BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.white, 3), "");
-        introducingLabelHolder.setBorder(introducingLabelHolderBorder);
-        introducingLabelHolder.add(new JLabel("A Path Fixer for Windows OS"));
+        introducingLabel.setFont(new Font(Font.MONOSPACED, Font.BOLD, 20));
+        introducingLabelHolder.setPreferredSize(new Dimension(0, 64));
+        introducingLabelHolder.setBorder(BorderFactory.createLineBorder(Color.white, 2));
+        introducingLabelHolder.add(introducingLabel);
 
         JLabel inputLabel = new JLabel("Your Path: ");
+        inputLabel.setFont(new Font(Font.DIALOG, Font.CENTER_BASELINE, 11));
         JLabel outputLabel = new JLabel("Fixed Path: ");
+        outputLabel.setFont(new Font(Font.DIALOG, Font.CENTER_BASELINE, 11));
         JTextField inputTextField = new JTextField(30), outputTextField = new JTextField(30);
         outputTextField.setEditable(false);
         inputTextField.addActionListener(e -> outputTextField.setText(fixedPath(inputTextField.getText())));
 
-        JPanel inputLabelHolder = new JPanel();
         inputLabelHolder.setPreferredSize(new Dimension(70, 39));
         inputLabelHolder.setLayout(new BorderLayout());
         inputLabelHolder.setBackground(Color.lightGray);
         inputLabelHolder.add(inputLabel, BorderLayout.EAST);
 
-        JPanel outputLabelHolder = new JPanel();
         outputLabelHolder.setPreferredSize(new Dimension(70, 39));
         outputLabelHolder.setLayout(new BorderLayout());
-        outputLabelHolder.setBackground(Color.gray);
+        outputLabelHolder.setBackground(Color.lightGray);
         outputLabelHolder.add(outputLabel, BorderLayout.EAST);
 
         Box inputBox = Box.createHorizontalBox();
@@ -73,21 +74,73 @@ public class PathFixer
             inputTextField.setText("");
             outputTextField.setText("");
         });
-        JPanel southSideButtonHolder = new JPanel(new FlowLayout());
         southSideButtonHolder.add(reset);
         southSideButtonHolder.add(close);
+
+//        A theme panel at west.
+        JPanel westThemePanel = westThemePanel();
 
         Container contentPane = frame.getContentPane();
         contentPane.setLayout(new BorderLayout());
         contentPane.add(introducingLabelHolder, BorderLayout.NORTH);
         contentPane.add(vBox, BorderLayout.CENTER);
         contentPane.add(southSideButtonHolder, BorderLayout.SOUTH);
+        contentPane.add(westThemePanel, BorderLayout.WEST);
 
         frame.pack();
         frame.setVisible(true);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    }
+
+    private static JPanel westThemePanel()
+    {
+        JPanel panel = new JPanel();
+
+//        Border setup at panel.
+        Border border = BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.lightGray, 2), "Theme");
+        panel.setBorder(border);
+
+        Color defaultTextColor = introducingLabel.getForeground();
+        Color defaultHolderColor = introducingLabelHolder.getBackground();
+        Color defaultSouthSideButtonHolderBackground = southSideButtonHolder.getBackground();
+        Border defaultBorder = introducingLabelHolder.getBorder();
+        JRadioButton defaultTheme = new JRadioButton("Default");
+        defaultTheme.setSelected(true);
+        defaultTheme.addActionListener(e -> {
+            introducingLabel.setForeground(defaultTextColor);
+            introducingLabelHolder.setBackground(defaultHolderColor);
+            introducingLabelHolder.setBorder(defaultBorder);
+            panel.setBackground(Color.white);
+            panel.setBorder(border);
+            southSideButtonHolder.setBackground(defaultSouthSideButtonHolderBackground);
+        });
+
+        JRadioButton darkTheme = new JRadioButton("Dark");
+        darkTheme.addActionListener(e -> {
+            introducingLabel.setForeground(Color.lightGray);
+            introducingLabelHolder.setBackground(Color.darkGray);
+            panel.setBackground(Color.lightGray);
+            southSideButtonHolder.setBackground(Color.darkGray);
+            outputLabelHolder.setBackground(Color.lightGray);
+            panel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createLineBorder(Color.darkGray, 2),
+                    "Theme"));
+        });
+
+//        Make them mutually exclusive.
+        ButtonGroup westThemePanelButtonGroup = new ButtonGroup();
+        westThemePanelButtonGroup.add(defaultTheme);
+        westThemePanelButtonGroup.add(darkTheme);
+
+        Box westThemePanelBox = Box.createVerticalBox();
+        westThemePanelBox.add(defaultTheme);
+        westThemePanelBox.add(darkTheme);
+
+        panel.setBackground(Color.white);
+        panel.add(westThemePanelBox);
+
+        return panel;
     }
 
     private static String fixedPath(String path)
