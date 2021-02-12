@@ -14,8 +14,8 @@ public class Main
 
     public static void main(String[] args)
     {
-        int[] arr1 = {1, 2, 3, 4, 5};
-        int[] arr2 = Arrays.copyOfRange(arr1, 0, 2);
-        System.out.println(Arrays.toString(arr2));
+        String s1 = new String("Hello");
+        String s2 = new String("Hello");
+        System.out.println(s1 == s2);
     }
 }
