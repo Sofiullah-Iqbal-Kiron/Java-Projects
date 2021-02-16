@@ -1,6 +1,11 @@
-package Contest;
+// Accepted after a long attempt.
+// Posted in twitter.
+// Ubuntu-Link: https://pastebin.ubuntu.com/p/qwJMZfjD8v/
 
-class Solution
+
+package Contest.Weekly_228;
+
+public class MinimumChangesToMakeAlternatingBinaryString
 {
     public int minOperations(String s)
     {
