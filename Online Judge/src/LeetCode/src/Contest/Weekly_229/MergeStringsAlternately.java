@@ -1,6 +1,12 @@
-package Contest;
+// Accepted in second attempt.
+// First of all, I assumed that it is a so easy problem but when I go to implement this, I failed much many times.
+// Posted in twitter.
+// Ubuntu-LinK: https://pastebin.ubuntu.com/p/gQSPZ72hr5/
 
-class Solution
+
+package Contest.Weekly_229;
+
+public class MergeStringsAlternately
 {
     public String mergeAlternately(String word1, String word2)
     {
