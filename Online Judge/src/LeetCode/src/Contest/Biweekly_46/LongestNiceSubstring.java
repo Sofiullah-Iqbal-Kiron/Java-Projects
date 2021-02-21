@@ -1,8 +1,14 @@
-package Contest;
+// Accepted in first attempt but not in a good algo.
+// Not implemented in optimal algorithm.
+// Tried to post in twitter but twitter icon not loading due to my slow internet connection.
+// Ubuntu-Link: https://pastebin.ubuntu.com/p/yBYcGjD85F/
+
+
+package Contest.Biweekly_46;
 
 import java.util.Arrays;
 
-class Solution
+public class LongestNiceSubstring
 {
     public String longestNiceSubstring(String s)
     {

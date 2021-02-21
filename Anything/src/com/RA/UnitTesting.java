@@ -32,8 +32,11 @@ public class UnitTesting
         var concat = s1 + num;
         System.out.println(concat);*/
 
-        var unsigned = Integer.parseUnsignedInt("3000000000");
-        System.out.println(unsigned);
+        /*var unsigned = Integer.parseUnsignedInt("3000000000");
+        System.out.println(unsigned);*/
+
+        String s = "MmaAaSs";
+        System.out.println(isNice(s));
     }
 
     private static String sortedString(String s)
@@ -45,5 +48,21 @@ public class UnitTesting
             ss.append(c);
 
         return ss.toString();
+    }
+
+    private static boolean isNice(String s)
+    {
+        char[] charS = s.toCharArray();
+        Arrays.sort(charS);
+        s = new String(charS);
+        for (int i = 0; i < s.length(); i++)
+        {
+            int val = s.charAt(i) >= 'A' && s.charAt(i) <= 'Z' ? s.charAt(i) + 32 : s.charAt(i) - 32;
+            char c = (char) val;
+            if (!s.contains("" + c))
+                return false;
+        }
+
+        return true;
     }
 }
