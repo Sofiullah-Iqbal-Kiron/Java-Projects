@@ -2,9 +2,9 @@ package Stack.Medium;
 
 import java.util.Stack;
 
-public class BasicCalculatorII_227
-{
-    public int calculate(String s)
+/*public class BasicCalculatorII_227
+{*/
+    /*public int calculate(String s)
     {
         Stack<Integer> stack = new Stack<>();
         int cN = 0;
@@ -67,6 +67,8 @@ class Solution
         {
             result += stack.pop();
         }
+
         return result;
     }
 }
+*/
