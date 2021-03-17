@@ -1,6 +1,7 @@
 // Accepted at 2'nd attempt.
 // First of all, tried with LinkedList Node but internal compilation producing garbage.
 // Posted in twitter
+// Ubuntu Pastebin: https://pastebin.ubuntu.com/p/4VD5z3mjVS/
 
 
 package MonthlyChallenge2021.March;
