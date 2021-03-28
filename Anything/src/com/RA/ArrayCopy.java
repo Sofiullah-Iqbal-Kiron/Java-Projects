@@ -1,8 +1,6 @@
-package Contest;
+package com.RA;
 
-import java.util.Arrays;
-
-class Solution {
+public class ArrayCopy {
     private static void arrayCopy(int[] source, int[] destination) {
         try {
             if (source.length != destination.length) throw new Exception();
@@ -11,9 +9,5 @@ class Solution {
         catch (Exception e) {
             System.out.println("ArraysLengthNotSameException");
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }
