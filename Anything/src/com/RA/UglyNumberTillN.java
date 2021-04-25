@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 //Limitation is: 1690.
-public class UglyNumberTillN
-{
+public class UglyNumberTillN {
     private static int[] primes = new int[] {7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73,
             79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191,
             193, 197, 199, 211, 223, 227, 229, 233, 239, 241, 251, 257, 263, 269, 271, 277, 281, 283, 293, 307, 311,
@@ -21,38 +20,23 @@ public class UglyNumberTillN
             1493, 1499, 1511, 1523, 1531, 1543, 1549, 1553, 1559, 1567, 1571, 1579, 1583, 1597, 1601, 1607, 1609,
             1613, 1619, 1621, 1627, 1637, 1657, 1663, 1667, 1669};
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = Main.input;
         System.out.println(uglyTilN(input.nextInt()));
-
     }
 
-    private static ArrayList<Integer> uglyTilN(int nextInt)
-    {
-
+    private static ArrayList<Integer> uglyTilN(int nextInt) {
         ArrayList<Integer> uglyNumbers = new ArrayList<>();
-        if (nextInt >= 1)
-        {
-            uglyNumbers.add(1);
-        }
+        if (nextInt >= 1) uglyNumbers.add(1);
         for (int i = 2; i <= nextInt; i++)
-        {
-            if (isUgly(i))
-            {
-                uglyNumbers.add(i);
-            }
-        }
+            if (isUgly(i)) uglyNumbers.add(i);
 
         return uglyNumbers;
     }
 
-    private static boolean isUgly(int number)
-    {
-        for (int i = 0; primes[i] <= number; i++)
-        {
-            if (number % primes[i] == 0)
-                return false;
+    private static boolean isUgly(int number) {
+        for (int i = 0; primes[i] <= number; i++) {
+            if (number % primes[i] == 0) return false;
         }
 
         return true;
