@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe053d8e-9676-40f1-90e5-5c0cf7e5b383" name="Default Changelist" comment="" />
+    <list default="true" id="fe053d8e-9676-40f1-90e5-5c0cf7e5b383" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Online Judge/src/URI/Beginner/Lowest_Number_and_Position_1180.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Online Judge/URI/Beginner/Array_Selection_I_1174.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Online Judge/URI/Beginner/Array_Selection_I_1174.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

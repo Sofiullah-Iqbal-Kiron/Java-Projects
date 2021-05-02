@@ -1,31 +1,51 @@
-//package URI.Mathematics;
-//
-//import java.util.Scanner;
-//
-//public class Leap_Year_or_Not_Leap_Year_1279 {
-//    private static final Scanner input = new Scanner(System.in);
-//
-//    public static void main(String[] args) {
-//        while (input.hasNext()) {
-//            String year = input.next().trim();
-//            boolean nothing = true;
-//            if (leapYear(year)) {
-//                System.out.println("This is leap year.");
-//                nothing = false;
-//            }
-//            if (hulukulu(year)) {
-//                System.out.println("This is huluculu festival year.");
-//                nothing = false;
-//            }
-//            if (leapYear(year) && bulukulu(year)) {
-//                System.out.println("This is bulukulu festival year.");
-//                nothing = false;
-//            }
-//            if (nothing) System.out.println("This is an ordinary year.");
-//            System.out.println();
-//        }
-//    }
-//
+// Accepted
+// Presentation error debug from: https://replit.com/@rafaelrodrigues/URI-1279-Leap-Year-or-Not-Leap-Year-and
+
+
+package URI.Mathematics;
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Leap_Year_or_Not_Leap_Year_1279 {
+    private static final Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int newLine = 0;
+        while (input.hasNext()) {
+            String year = input.next().trim();
+            if (newLine == 0) newLine = 1;
+            else System.out.println("");
+            boolean nothing = true;
+            if (leapYear(year)) {
+                System.out.println("This is leap year.");
+                nothing = false;
+            }
+            if (hulukulu(year)) {
+                System.out.println("This is huluculu festival year.");
+                nothing = false;
+            }
+            if (leapYear(year) && bulukulu(year)) {
+                System.out.println("This is bulukulu festival year.");
+                nothing = false;
+            }
+            if (nothing) System.out.println("This is an ordinary year.");
+        }
+    }
+
+    private static boolean leapYear(String year) {
+        BigInteger theYear = new BigInteger(year);
+        return theYear.mod(new BigInteger("400")).equals(new BigInteger("0")) || (!(theYear.mod(new BigInteger("100")).equals(new BigInteger("0"))) && (theYear.mod(new BigInteger("4")).equals(new BigInteger("0"))));
+    }
+    private static boolean hulukulu(String year) {
+        BigInteger theYear = new BigInteger(year);
+        return theYear.mod(new BigInteger("15")).equals(new BigInteger("0"));
+    }
+    private static boolean bulukulu(String year) {
+        BigInteger theYear = new BigInteger(year);
+        return theYear.mod(new BigInteger("55")).equals(new BigInteger("0"));
+    }
+
 //    private static boolean leapYear(String year) {
 //        return divisibleBy400(year) || (!divisibleBy100(year) && divisibleBy4(year));
 //    }
@@ -66,7 +86,8 @@
 //        return newNumber % 4 == 0;
 //    }
 //    private static boolean divisibleBy5(String number) {
-//        return number.length() > 0 && (number.charAt(number.length() - 1) == '0' || number.charAt(number.length() - 1) == '5');
+//        return number.length() > 0 && (number.charAt(number.length() - 1) == '0' || number.charAt(number.length() -
+//        1) == '5');
 //    }
 //    private static boolean divisibleBy11(String number) {
 //        return alternateDigitSum(number) % 11 == 0;
@@ -83,4 +104,4 @@
 //    private static boolean divisibleBy400(String number) {
 //
 //    }
-//}
+}
