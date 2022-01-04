@@ -12,3 +12,6 @@ IntelliJ IDEA shortcuts.
 -> Move line up / down: alt + shift + up arrow / down arrow
 -> To delete the whole line at current caret: Ctrl + Y
 -> Join next line with current caret line: ctrl + shift + J
+-> Multiline comment: ctrl + shift + /
+-> Switch from one codePane to another: alt + "leftArrow/rightArrow"
+-> Close all codePane excluding current: alt + "close button beside current codePane"
