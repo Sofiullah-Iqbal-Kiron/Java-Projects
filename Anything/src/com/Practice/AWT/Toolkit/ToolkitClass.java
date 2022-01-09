@@ -33,7 +33,7 @@ public class ToolkitClass {
     private static LayoutManager layout = new FlowLayout();
 
     //    Beep button.
-    private static JButton beepButton = new JButton("Beep");
+    private static JButton beepButton = new JButton("<html><body><b>Beep</b> Me</body></html>");
 
     //    Main method.
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ import java.awt.*;
 import java.awt.event.KeyEvent;
 
 /*
- * JTabbedPane class for share space.
+ * JTabbedPaneClass class for share space.
  * To gather similar functionality, use card layout.
  * A single tabbed pane can hold many tabs as we want. To add tab, use addTab() method.
  */
