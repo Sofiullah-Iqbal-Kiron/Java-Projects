@@ -1,0 +1,3 @@
+Image is an abstract class in java to render image.
+Images represented as a 2D array of pixels which is a solid piece of color.
+BufferedImage class implements all methods of Image class.
