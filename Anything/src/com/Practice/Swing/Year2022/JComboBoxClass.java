@@ -23,31 +23,40 @@ public class JComboBoxClass {
         JPanel panel = new JPanel();
         panel.setLayout(new FlowLayout());
 
-        String[] aligns = {"Left", "Center", "Right"};
-        JComboBox comboBox = new JComboBox(aligns);
+        //        Constructing comboBox.
+        Object[] alignmentTexts = {"Left", "Center", "Right", 1}; // Only strings or specify with "String[]".
+        JComboBox comboBox = new JComboBox(alignmentTexts);
+        comboBox.setName("Alignment Changer ComboBox");
         comboBox.setSelectedIndex(1); // "Center" selected by default. If we don't specify selected index, index 0 will be assumed as selected.
+        comboBox.setToolTipText("Change Buttons Alignment");
+        Cursor cursorForAlignerComboBox = new Cursor(Cursor.HAND_CURSOR);
+        comboBox.setCursor(cursorForAlignerComboBox);
 
         //        ActionListener for comboBox.
         comboBox.addActionListener(e -> {
             Component[] buttons = buttonsPanel.getComponents();
 
-            String alignment = (String) comboBox.getSelectedItem();
-            switch(alignment) {
-                case "Left":
-                    for(Component b : buttons)
-                        if(b instanceof JButton) ((JButton) b).setAlignmentX(Component.LEFT_ALIGNMENT);
-                    buttonsPanel.setAlignmentX(Component.RIGHT_ALIGNMENT);
-                    break;
-                case "Center":
-                    for(Component b : buttons)
-                        if(b instanceof JButton) ((JButton) b).setAlignmentX(Component.CENTER_ALIGNMENT);
-                    buttonsPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
-                    break;
-                case "Right":
-                    for(Component b : buttons)
-                        if(b instanceof JButton) ((JButton) b).setAlignmentX(Component.RIGHT_ALIGNMENT);
-                    buttonsPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
-                    break;
+            if(comboBox.getSelectedItem() instanceof String) {
+                String alignment = (String) comboBox.getSelectedItem();
+                switch(alignment) {
+                    case "Left":
+                        for(Component b : buttons)
+                            if(b instanceof JButton) ((JButton) b).setAlignmentX(Component.LEFT_ALIGNMENT);
+                        buttonsPanel.setAlignmentX(Component.RIGHT_ALIGNMENT);
+                        break;
+                    case "Center":
+                        for(Component b : buttons)
+                            if(b instanceof JButton) ((JButton) b).setAlignmentX(Component.CENTER_ALIGNMENT);
+                        buttonsPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
+                        break;
+                    case "Right":
+                        for(Component b : buttons)
+                            if(b instanceof JButton) ((JButton) b).setAlignmentX(Component.RIGHT_ALIGNMENT);
+                        buttonsPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+                        break;
+                    default:
+                        break;
+                }
             }
 
             SwingUtilities.updateComponentTreeUI(frame);
@@ -72,6 +81,7 @@ public class JComboBoxClass {
         for(int i = 0; i < namesForButtons.length; i++) {
             JButton b = new JButton(namesForButtons[i]);
             b.setAlignmentX(Component.CENTER_ALIGNMENT);
+            b.setCursor(new Cursor(Cursor.HAND_CURSOR));
             panel.add(b);
         }
 
