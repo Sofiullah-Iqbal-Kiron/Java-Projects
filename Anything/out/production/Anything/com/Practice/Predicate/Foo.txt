@@ -1,0 +1,3 @@
+***
+Predicate is an interface that returns boolean by a lambda function. Seems like predicate logic(in computational theory)
+is either true or false but not both.

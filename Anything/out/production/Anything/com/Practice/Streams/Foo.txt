@@ -1,0 +1,5 @@
+***
+We have so many programming paradigm like as Declarative(Functional), Imperative(line to line), Functional, Event-driven and so on.
+
+Stream allow us to process a collection of data in a declarative way like SQL-Query.
+Stream is for one time use.

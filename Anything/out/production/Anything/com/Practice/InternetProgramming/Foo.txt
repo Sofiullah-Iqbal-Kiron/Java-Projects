@@ -1,0 +1,12 @@
+Java is practically a synonym for internet programming.
+Java is the premier language for the network programming.
+Network related classes defined in java.net package.
+To manage multiple clients a server process must be multithreaded.
+HTTP is the protocol that web browsers and servers use to transfer hypertext pages and images.
+Each computerized device has an address number to identify over the internet.
+
+***
+The core of java networking support is the concept of socket.
+
+***
+Device must be in ONLINE while programming with network related packages.
