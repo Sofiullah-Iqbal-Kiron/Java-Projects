@@ -1,8 +1,5 @@
 package Contest;
 
-import java.math.BigInteger;
-import java.util.Arrays;
-
 class Solution {
     private static void arrayCopy(int[] source, int[] destination) {
         try {
