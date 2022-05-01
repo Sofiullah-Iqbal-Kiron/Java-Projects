@@ -7,19 +7,16 @@ package Contest.Biweekly_77;
 
 public class Minimum_Average_Difference {
     public int minimumAverageDifference(int[] nums) {
-        int minIndex = 0;
+        int minIndex = 0, n = nums.length;
         int leftVal = nums[0], rightVal = 0;
         for (int i = 1; i < nums.length; i++) rightVal += nums[i];
 
-        int leftDiv = 1, rightDiv = Math.max(1, nums.length - 1);
-        int minAD = Math.abs((int) Math.floor(leftVal / leftDiv) - (int) Math.floor(rightVal / rightDiv));
+        int minAD = Math.abs(leftVal - rightVal / (n - 1));
 
-        for (int i = 1; i < nums.length; i++) {
+        for (int i = 1; i < n; i++) {
             leftVal += nums[i];
-            leftDiv++;
             rightVal -= nums[i];
-            rightDiv--;
-            int currMinAD = Math.abs((int) Math.floor(leftVal / Math.max(1, leftDiv)) - (int) Math.floor(rightVal / Math.max(1, rightDiv)));
+            int currMinAD = Math.abs(leftVal / (i + 1) - rightVal / Math.max(1, n - i - 1));
             if (currMinAD < minAD) {
                 minAD = currMinAD;
                 minIndex = i;

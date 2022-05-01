@@ -1,4 +1,5 @@
 // 30 April, 2022.
+// Problem 1, easy.
 // Accepted.
 // Ubuntu Pastebin: https://pastebin.ubuntu.com/p/h254VMDRHb/
 
