@@ -2,6 +2,8 @@
 // Try out this solution: https://leetcode.com/problems/minimum-average-difference/discuss/1994675/Javaoror-Easy-to-Understand-oror-main-thing-is-to-handle-the-last-index
 
 // Use precalculation or prefix array sum.
+// Use long always to calculate any sum.
+// 2^63 > 10^10
 
 package Contest.Biweekly_77;
 
