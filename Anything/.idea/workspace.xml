@@ -1,13 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fe053d8e-9676-40f1-90e5-5c0cf7e5b383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Practice/JDBC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Practice/SystemProcess/Foo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Practice/SystemProcess/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Practice/SystemProcess/source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Online Judge/src/LeetCode/src/Contest/Biweekly_80/Strong_Password_Checker_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Online Judge/src/LeetCode/src/MonthlyChallenge2022/June/Intersection_of_Two_Linked_Lists_160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Online Judge/src/LeetCode/src/PickOne/K_Divisible_Elements_Subarrays_2261.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Search/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Search/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sieve/SieveOfEratosthenes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sieve/SieveOfEratosthenes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sieve/SieveOfSundaram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sieve/SieveOfSundaram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/BucketSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/BucketSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/Insertion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/Selection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/SortClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Algorithm/Sort/SortClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/BinaryTree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/BinaryTree/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/ComparatorClassChecking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/ComparatorClassChecking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/SortedSetPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/SortedSetPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/priorityQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/CollectionFramework/priorityQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/DynamicArray/DArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/DynamicArray/DArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Doubly/DLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Doubly/DLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Doubly/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Doubly/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Doubly/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Doubly/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Singly/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Singly/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Singly/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Singly/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Singly/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/LinkedList/Singly/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/AutoGUIorRobot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/AutoGUIorRobot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/ButtonAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/ButtonAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/ButtonActionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/ButtonActionHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/CheckBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/CheckBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/First.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/First.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/MouseInfoClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/MouseInfoClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/MyFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/PointerInfoClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/PointerInfoClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Second.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Second.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Three.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Three.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Toolkit/ToolkitClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Toolkit/ToolkitClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Toolkit/TopFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/AWT/Toolkit/TopFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/FileHandling/FileHandlingONE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/FileHandling/FileHandlingONE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/FileHandling/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/FileHandling/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Image/ImageApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Image/ImageApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/InternetProgramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/InternetProgramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/JDBC/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/JDBC/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/JDBC/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/JDBC/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Operators/BitwiseOperators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Operators/BitwiseOperators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AWT/FontClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AWT/FontClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$1EnglishGreeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$1EnglishGreeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass$HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/AnonymousClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/ArrayCopyDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/ArrayCopyDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/BasicMathDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/BasicMathDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/BorderLayoutDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/BorderLayoutDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/BorderLayoutDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/BorderLayoutDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/NameSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/NameSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/HelloWorldSwing$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/HelloWorldSwing$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/HelloWorldSwing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/HelloWorldSwing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/IconDemoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/IconDemoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JComboBoxLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JComboBoxLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JPasswordFieldLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JPasswordFieldLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JProgressBarLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JProgressBarLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JToggleButtonLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/JToggleButtonLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/MakingDialogs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/OracleTutorial/Swing/MakingDialogs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/BigDecimalPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/BigDecimalPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/BigIntegerPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/BigIntegerPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/CharacterPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/CharacterPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/IntegerPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/IntegerPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/ObjectOrientedProgramming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/ObjectOrientedProgramming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/PatternMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/PatternMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/ScannerPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/ScannerPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/StringBufferPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/StringBufferPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/StringPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Others/StringPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Predicate/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Predicate/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Streams/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Streams/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Streams/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Streams/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Streams/StreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Streams/StreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Create_A_New_JFrame_By_A_JButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Create_A_New_JFrame_By_A_JButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec10_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec10_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec10_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec10_C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec13_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec13_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec13_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec13_C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec2_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec2_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec2_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec2_C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec6$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec7_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec7_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Dec9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/MirroredTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/MirroredTextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/MyActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/MyActionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/MyMouseEventHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/MyMouseEventHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov21_Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov26_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov26_A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov26_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/Nov26_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/WindowClassPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2020/WindowClassPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/AllInstalledLookAndFeel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/AllInstalledLookAndFeel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/BoxLayoutPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/BoxLayoutPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/ExperimentingWithCurrentLookAndFeels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/ExperimentingWithCurrentLookAndFeels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/JTabbedPaneLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/JTabbedPaneLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/JToolBar_Learning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/JToolBar_Learning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/Jan1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/Jan1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/Jan2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/Jan2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/Jan2_B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/Jan2_B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/MakingChoices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/MakingChoices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/MakingChoicesThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/MakingChoicesThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/MakingChoicesTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/MakingChoicesTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/PluggableLookAndFeel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/SwingTutorialBooksCode/Year2021/PluggableLookAndFeel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2021/JRadioButtonPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2021/JRadioButtonPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/CardLayoutClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/CardLayoutClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/DialogDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/DialogDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JComboBoxClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JComboBoxClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JFileChooserClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JFileChooserClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JOptionPaneClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JOptionPaneClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JPasswordClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JPasswordClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JTabbedPaneClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JTabbedPaneClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JToggleButtonClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/JToggleButtonClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/UsingHTML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Swing/Year2022/UsingHTML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/SystemProcess/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/SystemProcess/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Threads/Beginning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Threads/Beginning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/Threads/Download.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/Threads/Download.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/Practice/W3Schools/FileHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/Practice/W3Schools/FileHandling.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/ArrayCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/ArrayCopy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/ConsoleColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/ConsoleColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/CurrentScreenResolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/CurrentScreenResolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/GUI/FactorialCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/GUI/FactorialCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/GUI/PathFixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/GUI/PathFixer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/GUI/ShoutDownPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/GUI/ShoutDownPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/IPAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/IPAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/IntegerToStringByCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/IntegerToStringByCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/NumberConversionAnyToDecade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/NumberConversionAnyToDecade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/PathFixer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/PathFixer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/RobotTypeWrite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/RobotTypeWrite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/ShoutDownPC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/ShoutDownPC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/ShowColorSystemPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/ShowColorSystemPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/Sleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/Sleep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/Sort2DArrayByComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/Sort2DArrayByComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/StringSorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/StringSorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/TimeForExecutionTheProgramInMiliSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/TimeForExecutionTheProgramInMiliSecond.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/UglyNumberTillN.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/UglyNumberTillN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/Unicode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/Unicode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Anything/com/RA/UnitTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Anything/com/RA/UnitTesting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Practice/JDBC/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Practice/JDBC/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Practice/JDBC/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Practice/JDBC/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Anything/com/Practice/JDBC/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Anything/com/Practice/JDBC/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +190,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://F:/program files/jdk/lib/src.zip!/java.sql/java/sql/DriverManager.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,15 +201,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.28.jar" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.29.jar",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.Login">
     <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Practice.JDBC.Login" />
@@ -82,9 +238,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TripletGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.RA.TripletGenerator" />
+      <module name="Anything" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.RA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Login" />
+        <item itemvalue="Application.TripletGenerator" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

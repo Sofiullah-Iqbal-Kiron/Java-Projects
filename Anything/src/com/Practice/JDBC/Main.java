@@ -1,14 +1,16 @@
 // JDBC is an api of java for accessing database from a java program.
+/*
+* If you need to connect to any other database then you need to change two things, the JDBC driver and the connection URL.
+*/
 
 package com.Practice.JDBC;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import com.mysql.cj.jdbc.Driver;
+
+import java.sql.*;
 
 public class Main {
-    private static final String dataBaseConnectionURL = "jdbc:mysql://localhost:3306/sakila";
+    private static final String dataBaseConnectionURL = "jdbc:mysql://127.0.0.1:3306/sakila";
     private static final String user = "root";
     private static final String password = "first92992%sqlme8*:";
 
@@ -21,19 +23,23 @@ public class Main {
             //            Get the connection of database by specifying its connection path.
             Connection connection = DriverManager.getConnection(dataBaseConnectionURL, user, password);
 
+            //            Create a statement line on this connection.
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM actor");
 
-            while(resultSet.next()) {
-                System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getString(3));
+            int c = 0, value = 0;
+            while (resultSet.next() && c++ < 2) {
+                value += resultSet.getInt(1);
+                System.out.println(value);
             }
 
             connection.close();
-        } catch(Exception e) {
+        } catch (SQLException e) {
             e.printStackTrace();
-            System.out.println(e.getMessage());
-            System.out.println(e.getCause());
-            System.out.println(e.getClass());
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        } finally{
+
         }
     }
 }
