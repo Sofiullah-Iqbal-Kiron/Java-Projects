@@ -1,4 +1,5 @@
 // Login subsystem with jdbc and mysql.
+// Success. Use built-in methods for comparing.
 
 package com.Practice.JDBC;
 
@@ -12,38 +13,30 @@ public class Login {
     private static String password = "first92992%sqlme8*:";
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Log in");
-
-        JButton b = new JButton("Hello");
-
-        frame.getContentPane().add(b);
-
-        frame.setLocationRelativeTo(null);
-        frame.setSize(new Dimension(100, 100));
-        frame.setVisible(true);
-
-        isValid("Kiron", "logKiron");
+        if (isValid("Kiron", "logKiron"))
+            System.out.println("Yes, validated.");
+        else System.out.println("In-valid credentials.");
     }
 
-    public static void isValid(String username, String passWord) {
+    public static boolean isValid(String username, String passWord) {
         try {
-//            Load the driver.
+//            Load the jdbc driver which will mediate between database and my java program.
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-//            Get the connection.
+//            Get connected with database.
             Connection connection = DriverManager.getConnection(databaseConnectionURL, user, password);
 
 //            Create a statement.
             Statement statement = connection.createStatement();
 
 //            Perform a query and store in a resultset.
-            ResultSet resultSet = statement.executeQuery("SELECT username, password FROM user WHERE username='" + username + "'and password='" + passWord + "'");
+            ResultSet resultSet = statement.executeQuery("SELECT username, password FROM user WHERE username='" + username + "'and password='" + passWord + "';");
 
             while (resultSet.next()) {
                 String a = resultSet.getString(1), b = resultSet.getString(2);
-                if (a == username && b == passWord) {
+                if (a.equals(username) && b.equals(passWord)) {
                     System.out.println("User authenticated.");
-                    break;
+                    return true;
                 }
             }
 
@@ -51,5 +44,7 @@ public class Login {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        return false;
     }
 }

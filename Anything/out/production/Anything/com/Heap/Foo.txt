@@ -1,0 +1,5 @@
+Heap is data structure that is basically a complete binary tree on state.
+We can store heap data in an array as, parent index is 'i' then left child "2i+1" and right child "2i+2".
+Parent of any node "floor{(2i - 1) / 2}".
+
+Bulky - taking up much space.

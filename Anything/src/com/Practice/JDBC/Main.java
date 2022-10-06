@@ -1,7 +1,7 @@
 // JDBC is an api of java for accessing database from a java program.
 /*
-* If you need to connect to any other database then you need to change two things, the JDBC driver and the connection URL.
-*/
+ * If you need to connect to any other database then you need to change two things, the JDBC driver and the connection URL.
+ */
 
 package com.Practice.JDBC;
 
@@ -18,9 +18,12 @@ public class Main {
         //        All the jdbc code must be inside try block to handle exception.
         try {
             //            Load the driver. Previous version "com.mysql.jdbc.Driver" was deprecated.
+            //            Load the jdbc driver which will mediate between database and my java program.
+            //            In intellij idea, add it from, File-> Project Structure-> (Under platform setting) SDK's-> add a classpath pointing to the mysql-connector-java-version_number.jar
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             //            Get the connection of database by specifying its connection path.
+            //            Get connected with database.
             Connection connection = DriverManager.getConnection(dataBaseConnectionURL, user, password);
 
             //            Create a statement line on this connection.
@@ -38,8 +41,6 @@ public class Main {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
-        } finally{
-
         }
     }
 }

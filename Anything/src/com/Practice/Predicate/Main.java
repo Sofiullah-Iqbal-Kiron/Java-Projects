@@ -1,3 +1,5 @@
+// Learned from Mosh tutorial.
+
 package com.Practice.Predicate;
 
 import java.util.function.Predicate;
